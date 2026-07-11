@@ -1,0 +1,26 @@
+.
+├── HelloSynth
+│   ├── ContentView.swift
+│   └── HelloSynthApp.swift
+├── HelloSynth.xcodeproj
+│   ├── project.pbxproj
+│   ├── project.xcworkspace
+│   │   ├── contents.xcworkspacedata
+│   │   └── xcshareddata
+│   │       └── swiftpm
+│   │           └── configuration
+│   └── xcshareddata
+│       └── xcschemes
+│           └── HelloSynth.xcscheme
+├── HelloSynthAU
+│   ├── AudioUnitViewController.swift
+│   ├── HelloSynthAU.entitlements
+│   ├── HelloSynthAudioUnit.swift
+│   ├── HelloSynthAUFactory.swift
+│   ├── Info.plist
+│   └── SineWaveDSP.swift
+├── project_structure.txt
+├── project.yml
+└── README.md
+
+10 directories, 14 files

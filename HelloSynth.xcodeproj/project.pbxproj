@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E36DADB0F9C75F55FB7EAF3 /* HelloSynthAU.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D0C2FBCD460CAC1F5F5E93D1 /* HelloSynthAU.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2DC9093DD0A6A79A27064774 /* HelloSynthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAF53C51E30078AFC1A4608 /* HelloSynthApp.swift */; };
+		36312E8E6A86A5389ACFDF55 /* HelloSynthAudioUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1151DF6C6CA3C150A21BD2C2 /* HelloSynthAudioUnit.swift */; };
+		5F378D61AAD2B3F02DBDC850 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9FEA8D9907546C7832A9F0 /* ContentView.swift */; };
+		9FE551AC2DB1B11AC988ABD1 /* HelloSynthAUFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA449AA6BB7E2D961B22770C /* HelloSynthAUFactory.swift */; };
+		C52E3466E5A96F2F74175338 /* AudioUnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE9C9D3473BF054CFE4F834 /* AudioUnitViewController.swift */; };
+		D9BBCCF68B7D42439D5B2E26 /* SineWaveDSP.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2307DCE32E0FEEE498DC7F6 /* SineWaveDSP.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		427E329A10D2F4D4D0CD038B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD819769C6990BB3CF9940D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58380DEAEBC1C01977FC4D5B;
+			remoteInfo = HelloSynthAU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0F457749AF281D379F977E9A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0E36DADB0F9C75F55FB7EAF3 /* HelloSynthAU.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		090C75D8DBC499B05E02D0A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0CAF53C51E30078AFC1A4608 /* HelloSynthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSynthApp.swift; sourceTree = "<group>"; };
+		1151DF6C6CA3C150A21BD2C2 /* HelloSynthAudioUnit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSynthAudioUnit.swift; sourceTree = "<group>"; };
+		50A496AB563C6D9125E8CBC5 /* HelloSynth.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = HelloSynth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C0447E2E155AD3902421190 /* HelloSynthAU.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloSynthAU.entitlements; sourceTree = "<group>"; };
+		8E9FEA8D9907546C7832A9F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B2307DCE32E0FEEE498DC7F6 /* SineWaveDSP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SineWaveDSP.swift; sourceTree = "<group>"; };
+		BA449AA6BB7E2D961B22770C /* HelloSynthAUFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloSynthAUFactory.swift; sourceTree = "<group>"; };
+		D0C2FBCD460CAC1F5F5E93D1 /* HelloSynthAU.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = HelloSynthAU.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE9C9D3473BF054CFE4F834 /* AudioUnitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioUnitViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		8E4D567D9F6530697FCAB749 /* HelloSynthAU */ = {
+			isa = PBXGroup;
+			children = (
+				EFE9C9D3473BF054CFE4F834 /* AudioUnitViewController.swift */,
+				6C0447E2E155AD3902421190 /* HelloSynthAU.entitlements */,
+				1151DF6C6CA3C150A21BD2C2 /* HelloSynthAudioUnit.swift */,
+				BA449AA6BB7E2D961B22770C /* HelloSynthAUFactory.swift */,
+				090C75D8DBC499B05E02D0A4 /* Info.plist */,
+				B2307DCE32E0FEEE498DC7F6 /* SineWaveDSP.swift */,
+			);
+			path = HelloSynthAU;
+			sourceTree = "<group>";
+		};
+		9E29C7680BEF0A8B62BF5109 = {
+			isa = PBXGroup;
+			children = (
+				C09A634860597FC1613D48C6 /* HelloSynth */,
+				8E4D567D9F6530697FCAB749 /* HelloSynthAU */,
+				F37AE1EA346E510646B995CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C09A634860597FC1613D48C6 /* HelloSynth */ = {
+			isa = PBXGroup;
+			children = (
+				8E9FEA8D9907546C7832A9F0 /* ContentView.swift */,
+				0CAF53C51E30078AFC1A4608 /* HelloSynthApp.swift */,
+			);
+			path = HelloSynth;
+			sourceTree = "<group>";
+		};
+		F37AE1EA346E510646B995CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50A496AB563C6D9125E8CBC5 /* HelloSynth.app */,
+				D0C2FBCD460CAC1F5F5E93D1 /* HelloSynthAU.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58380DEAEBC1C01977FC4D5B /* HelloSynthAU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6AE47B4CDFB83E0ABF87664 /* Build configuration list for PBXNativeTarget "HelloSynthAU" */;
+			buildPhases = (
+				7A2EA9164486CCCA0B4B6518 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloSynthAU;
+			packageProductDependencies = (
+			);
+			productName = HelloSynthAU;
+			productReference = D0C2FBCD460CAC1F5F5E93D1 /* HelloSynthAU.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		9AF589D46085E589A1D7272C /* HelloSynth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B45A4F8D32E2A7E1CA3A7FAA /* Build configuration list for PBXNativeTarget "HelloSynth" */;
+			buildPhases = (
+				975B7B0C40FC3DCF3A52017B /* Sources */,
+				0F457749AF281D379F977E9A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC58FA5FD42A806A361A7FB2 /* PBXTargetDependency */,
+			);
+			name = HelloSynth;
+			packageProductDependencies = (
+			);
+			productName = HelloSynth;
+			productReference = 50A496AB563C6D9125E8CBC5 /* HelloSynth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD819769C6990BB3CF9940D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					58380DEAEBC1C01977FC4D5B = {
+						DevelopmentTeam = "";
+					};
+					9AF589D46085E589A1D7272C = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 521AF7689A64227F48011523 /* Build configuration list for PBXProject "HelloSynth" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 9E29C7680BEF0A8B62BF5109;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F37AE1EA346E510646B995CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AF589D46085E589A1D7272C /* HelloSynth */,
+				58380DEAEBC1C01977FC4D5B /* HelloSynthAU */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A2EA9164486CCCA0B4B6518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C52E3466E5A96F2F74175338 /* AudioUnitViewController.swift in Sources */,
+				9FE551AC2DB1B11AC988ABD1 /* HelloSynthAUFactory.swift in Sources */,
+				36312E8E6A86A5389ACFDF55 /* HelloSynthAudioUnit.swift in Sources */,
+				D9BBCCF68B7D42439D5B2E26 /* SineWaveDSP.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		975B7B0C40FC3DCF3A52017B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F378D61AAD2B3F02DBDC850 /* ContentView.swift in Sources */,
+				2DC9093DD0A6A79A27064774 /* HelloSynthApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC58FA5FD42A806A361A7FB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58380DEAEBC1C01977FC4D5B /* HelloSynthAU */;
+			targetProxy = 427E329A10D2F4D4D0CD038B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04E642C7FA0AC2E819992078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HelloSynthAU/HelloSynthAU.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = HelloSynthAU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hellosynth.app.HelloSynthAU;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A72E5FDBBAC0B72844BE3D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HelloSynthAU/HelloSynthAU.entitlements;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = HelloSynthAU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hellosynth.app.HelloSynthAU;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		667ED9FCD534CB4817F4BAFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7F10BE579413DEA7FCD19E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D42D01A8D624E9462AABD692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hello Synth";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hellosynth.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FFD66A711FE102DB2E908451 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Hello Synth";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hellosynth.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		521AF7689A64227F48011523 /* Build configuration list for PBXProject "HelloSynth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				667ED9FCD534CB4817F4BAFE /* Debug */,
+				7F10BE579413DEA7FCD19E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B45A4F8D32E2A7E1CA3A7FAA /* Build configuration list for PBXNativeTarget "HelloSynth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD66A711FE102DB2E908451 /* Debug */,
+				D42D01A8D624E9462AABD692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B6AE47B4CDFB83E0ABF87664 /* Build configuration list for PBXNativeTarget "HelloSynthAU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E642C7FA0AC2E819992078 /* Debug */,
+				2A72E5FDBBAC0B72844BE3D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD819769C6990BB3CF9940D6 /* Project object */;
+}
