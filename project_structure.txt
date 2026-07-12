@@ -1,19 +1,25 @@
 .
 ├── HelloSynth
+│   ├── AudioUnitDiscovery.swift
 │   ├── ContentView.swift
 │   └── HelloSynthApp.swift
 ├── HelloSynth.xcodeproj
 │   ├── project.pbxproj
 │   ├── project.xcworkspace
 │   │   ├── contents.xcworkspacedata
-│   │   └── xcshareddata
-│   │       └── swiftpm
-│   │           └── configuration
+│   │   ├── xcshareddata
+│   │   │   └── swiftpm
+│   │   │       └── configuration
+│   │   └── xcuserdata
+│   │       └── c9m7jf.xcuserdatad
+│   │           └── UserInterfaceState.xcuserstate
 │   └── xcshareddata
 │       └── xcschemes
-│           └── HelloSynth.xcscheme
+│           ├── HelloSynth.xcscheme
+│           └── HelloSynthMac.xcscheme
 ├── HelloSynthAU
 │   ├── AudioUnitViewController.swift
+│   ├── HelloSynthAU-macOS.entitlements
 │   ├── HelloSynthAU.entitlements
 │   ├── HelloSynthAudioUnit.swift
 │   ├── HelloSynthAUFactory.swift
@@ -23,4 +29,4 @@
 ├── project.yml
 └── README.md
 
-10 directories, 14 files
+12 directories, 18 files
